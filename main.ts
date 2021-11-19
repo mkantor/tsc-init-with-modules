@@ -1,1 +1,3 @@
-console.log('Hello, world!')
+import { greeting } from './lib.js'
+
+console.log(`${greeting}, world!`)
